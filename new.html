@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogaga Assignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cont">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <img src="data:image/png;base64,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">
+ <div class="photo-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxq5QUlgoO63j71HqwbmqcLDA6pYy4iIQvsQ&s" alt="Your Photo" class="animated-photo">
+    </div> 
+     
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4">Discover Your Next Adventure</h1>
+            <p class="lead">Explore the world with our travel packages.</p>
+            
+        </div>
+    </section>
+
+    <!-- Search Form -->
+    <section class="search-form-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Destination">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="date" class="form-control" placeholder="Check-in">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="date" class="form-control" placeholder="Check-out">
+                            </div>
+                        </div>
+                        <div class="form-row mt-3">
+                            <div class="col-md-4">
+                                <select class="form-control">
+                                    <option>Guests</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4+</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-control">
+                                    <option>Rooms</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3+</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary btn-block">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
