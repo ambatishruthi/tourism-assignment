@@ -1,4 +1,4 @@
-/* Typography */
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
@@ -9,34 +9,34 @@ body {
     background-size:cover;    
 }
 
-/* Navbar */
+
 .navbar {
      
     background-color: #ffffff;
-    background-size:cover; /* Dark Blue-Grey */
+    background-size:cover; 
 }
 
 
 .navbar-brand {
     font-weight: 700;
-    color: #ecf0f1; /* Light Grey */
+    color: #ecf0f1; 
 }
 
 .navbar-brand:hover {
-    color: #f39c12; /* Orange */
+    color: #f39c12; 
 }
 
 .nav-link {
     font-weight: 500;
     margin-right: 15px;
-    color: #ecf0f1; /* Light Grey */
+    color: #ecf0f1; 
 }
 
 .nav-link:hover {
-    color: #f39c12; /* Orange */
+    color: #f39c12; 
 }
 
-/* Hero Section */
+
 .hero-section {
     background-image: url('https://sustainabletravel.org/wp-content/uploads/Small-Islands-Header-Image-Web.jpg');
     background-size: cover;
@@ -44,7 +44,7 @@ body {
     padding: 100px 0;
     color: white;
     text-align: center;
-     /* Dark overlay for better text visibility */
+    
 }
 .head{
 color:green;
@@ -62,9 +62,9 @@ padding:40px;
     color:black;
 }
 
-/* Search Form */
+
 .search-form-section {
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     padding: 30px;
     margin-top: -50px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -75,28 +75,28 @@ padding:40px;
     border-radius: 5px;
     padding: 10px 15px;
     border: 1px solid #ccc;
-    color: #34495e; /* Dark Blue-Grey */
+    color: #34495e; 
 }
 
 .form-control:focus {
-    border-color: #f39c12; /* Orange */
+    border-color: #f39c12;
     box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
 }
 
 .btn-primary {
-    background-color: #f39c12; /* Orange */
+    background-color: #f39c12; 
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    color: #ffffff; /* White */
+    color: #ffffff;
     font-weight: 500;
 }
 
 .btn-primary:hover {
-    background-color: #e67e22; /* Darker Orange */
+    background-color: #e67e22; 
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .hero-section {
         padding: 60px 0;
@@ -110,30 +110,30 @@ padding:40px;
 
 .photo-container {
     position: relative;
-    width: 130px; /* Adjust as needed */
-    height: 142px; /* Adjust as needed */
-    overflow: hidden; /* Hide any overflow from animation */
-    border-radius: 1px; /* Optional: adds rounded corners */
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */
+    width: 130px; 
+    height: 142px; 
+    overflow: hidden; 
+    border-radius: 1px; 
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .animated-photo {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures image covers the container */
+    object-fit: cover; 
     animation: moveSideways 4s ease-in-out infinite;
 }
 
-/* Keyframes for sideways movement animation */
+
 @keyframes moveSideways {
     0% {
-        transform: translateX(-100px); /* Start off the left side */
+        transform: translateX(-100px); 
     }
     50% {
-        transform: translateX(100px); /* Move to the right side */
+        transform: translateX(100px); 
     }
     100% {
-        transform: translateX(-100px); /* Move back to the left side */
+        transform: translateX(-100px); 
     }
 }
 
